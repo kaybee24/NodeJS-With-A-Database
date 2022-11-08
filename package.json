@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-with-a-database",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "PORT=8080 nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaybee24/NodeJS-With-A-Database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaybee24/NodeJS-With-A-Database/issues"
+  },
+  "homepage": "https://github.com/kaybee24/NodeJS-With-A-Database#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-promise": "^10.12.1"
+  }
+}
